@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.taylor.pk80">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity_register"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".activity_bracketschedule"
+            android:label="@string/title_activity_bracketschedule" />
+        <activity
+            android:name=".activity_links"
+            android:label="@string/title_activity_links" />
+        <activity
+            android:name=".activity_facebook"
+            android:label="Facebook" />
+        <activity android:name=".activity_teamSelect" />
+        <activity android:name=".activity_feed"></activity>
+        <activity android:name=".activity_stadium"></activity>
+        <activity android:name=".activity_ticket"></activity>
+        <activity android:name=".activity_deals"></activity>
+        <activity android:name=".webactivity_hotels"></activity>
+        <activity android:name=".activity_schedule"></activity>
+
+    </application>
+
+</manifest>

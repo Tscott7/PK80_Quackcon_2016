@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.taylor.pk80.LoginActivity"
+    android:layout_marginTop="0dp"
+    android:elevation="10dp"
+    android:background="@drawable/login_img">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Username"
+        android:ems="10"
+        android:id="@+id/etUsername"
+        android:gravity="center_vertical|center"
+        android:layout_x="82dp"
+        android:layout_y="287dp"
+        android:layout_marginBottom="13dp"
+        android:layout_above="@+id/etPassword"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="50sp"
+        android:layout_marginLeft="50sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:ems="10"
+        android:id="@+id/etPassword"
+        android:gravity="center_vertical|center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="70sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginWithFB_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignEnd="@id/etPassword"
+        android:layout_alignRight="@id/etPassword"
+        android:layout_alignLeft="@id/etPassword"
+        android:layout_alignStart="@id/etPassword"
+        android:layout_marginBottom="8dp"
+        android:visibility="visible"
+        android:linksClickable="false"
+        android:background="@null"/>
+
+
+    />
+
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PK80</string>
+    <string name="PK80">PK80</string>
+    <string name="title_activity_register">activity_register</string>
+    <string name="title_activity_bracketschedule">activity_bracketschedule</string>
+    <string name="title_activity_links">activity_links</string>
+</resources>
